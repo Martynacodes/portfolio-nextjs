@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import AdminAppImg from "@/public/ADMINAPP.png";
 import NomadDeskImg from "@/public/nomaddesk.png";
-import AiGenerateImg from "@/public/AiApp.png";
+import AiAppImg from "@/public/AiApp.png";
 
 export const links = [
   {
@@ -88,7 +88,7 @@ export const projectsData = [
     demoUrl:
       "https://64ad73cd22f2e807e100b1b2--cozy-starlight-9eb433.netlify.app/",
     codeUrl: "https://github.com/Martynacodes/ai-image-generating-app",
-    imageUrl: AiGenerateImg,
+    imageUrl: AiAppImg,
   },
 ] as const;
 
