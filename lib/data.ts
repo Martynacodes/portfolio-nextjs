@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import AdminAppImg from "@/public/ADMINAPP.png";
 import NomadDeskImg from "@/public/nomaddesk.png";
-import AiGenerateImg from "@/public/ai app.png";
+import AiGenerateImg from "@/public/AiApp.png";
 
 export const links = [
   {
