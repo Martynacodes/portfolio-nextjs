@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import AdminAppImg from "@/public/ADMINAPP.png";
+import NomadDeskImg from "@/public/nomaddesk.png";
+import AiGenerateImg from "@/public/ai app.png";
 
 export const links = [
   {
@@ -36,51 +36,59 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
-    location: "Miami, FL",
+    location: "Online",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated a web developer bootcamp where I learned HTML, CSS, JavaScript, React, Node.js, MongoDB.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Freelance Web Developer",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked with individual clients and small businesses creating websites for their needs.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Frontend & CRO Engineer",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I worked for an agency based in NYC. My main projects included working for such clients as Tommy Hilfiger, Wharton School, and Christie's auction house.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "NomadDesk",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I created a full-stack Next 13 app for booking coworking spaces around the world. CRUD functionality, authorization and authentication, booking.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    demoUrl: "https://coworking-booking-fullstack-app.vercel.app/",
+    codeUrl: "https://github.com/Martynacodes/coworking-booking-fullstack-app",
+    imageUrl: NomadDeskImg,
   },
   {
-    title: "rmtDev",
+    title: "Admin Dashboard",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "I build this Admin Dashboard app. It features various charts, data tables page and calendar integration. Built with React, Data Grid, Material UI.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    demoUrl:
+      "https://admin-dashboard-react-lp8ec8st5-martynacodes-projects.vercel.app/",
+    codeUrl: "https://github.com/Martynacodes/admin-dashboard-react-app",
+    imageUrl: AdminAppImg,
   },
   {
-    title: "Word Analytics",
+    title: "AI Image Generator",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Fully responsive image creating app. App generate four image variations based on a text prompt. Built with OpenAI DALL-E API.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    demoUrl:
+      "https://64ad73cd22f2e807e100b1b2--cozy-starlight-9eb433.netlify.app/",
+    codeUrl: "https://github.com/Martynacodes/ai-image-generating-app",
+    imageUrl: AiGenerateImg,
   },
 ] as const;
 
