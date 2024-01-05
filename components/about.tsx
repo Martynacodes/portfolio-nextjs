@@ -19,18 +19,22 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After living my life emerged in classical music since the age of six, I
-        decided to pursue my passion for programming. I enrolled in a coding
-        bootcamp and learned{" "}
-        <span className="font-medium">frontend web development</span>.{" "}
-        <span className="italic">What fascinates me about programming</span> is
-        the never-ending amount of knowledge to posses. I{" "}
-        <span className="underline">love</span> learning the newest technologies
-        and applying the knowledge in my projects. My core stack is{" "}
+        Skilled Web Developer, specialized in both front-end and back-end
+        development, with particular expertise in{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB.
+          React, Next.js, MongoDB, and Node.js
         </span>
-        I also work with TypeScript and PostgreSQL.
+        .{" "}
+        <span className="italic">
+          Self-taught and adept in a broad spectrum of technologies, including
+        </span>{" "}
+        <span className="font-medium">
+          HTML5, CSS3, JavaScript, TypeScript, Git, React, Next.js, Node.js,
+          Bootstrap, Postgres, and Adobe Target.
+        </span>
+        <br></br>
+        Experienced in collaborating with diverse, cross-functional teams to
+        deliver secure, scalable, and innovative web applications.
       </p>
 
       <p>
