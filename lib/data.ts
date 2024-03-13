@@ -35,28 +35,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
+    title: "Web Developer Bootcamp",
     location: "Online",
     description:
-      "I successfully completed a web developer bootcamp, where I honed my skills in HTML, CSS, JavaScript, Node.js, MongoDB, and React.",
+      "Successfully completed a web developer bootcamp, where I honed my skills in HTML, CSS, JavaScript, Node.js, MongoDB, and React.",
     icon: React.createElement(LuGraduationCap),
     date: "2021",
   },
   {
-    title: "Freelance Web Developer",
-    location: "Remote",
+    title: "Web Developer",
+    location: "Freelance",
     description:
-      "Responsible for creating efficient design and developing user-friendly screens using HTML, CSS3, React, Next.js,TypeScript, and Node JS. Used AJAX, JSON to send request to the server to check the functionality of the websites and for storing and exchanging information between browsers and servers. Worked on GIT as a version control. Utilized NPM scripts for build and test environments in a Node.js application. Worked with NoSQL databases, such as MongoDB, as well as with SQL databases - Postgres. Extensively used SASS (Syntactically awesome style sheets) while styling with CSS3. Involved in API development and integration",
+      "Responsible for creating efficient design and developing user-friendly screens using HTML, CSS3, React, Next.js,TypeScript, and Node JS. Used AJAX, JSON to send request to the server to check the functionality of the websites and for storing and exchanging information between browsers and servers. Worked on GIT as a version control. Utilized NPM scripts for build and test environments in a Node.js application. Worked with NoSQL databases, such as MongoDB, as well as with SQL databases - Postgres. Extensively used SASS (Syntactically awesome style sheets) while styling with CSS3. Involved in API development and integration.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
   {
     title: "Frontend & CRO Engineer",
-    location: "Remote",
+    location: "Acronym Media",
     description:
       "Crafted fully-responsive web applications, meticulously translating designs from Figma into robust markup, ensuring exceptional UX. Engineered test experiences in Adobe Target and InteractionStudio/Salesforce, tailored to national and international luxury sector clients. Implemented substantial improvements to enhance the UX of client landing pages, utilizing JavaScript, TypeScript, and React.Developed various screens for the front end using React JS and used various predefined components from NPM (Node Package Manager) and Redux library. Extensively worked on ES6 new features such as Arrow functions, Classes, Iterators and Generators. Developed the UI responsible for creating efficient design and developing User Interaction screens using ReactJS, Redux-form, HTML5, CSS3, JavaScript, jQuery and JSON. ",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
+  },
+  {
+    title: "Web Developer",
+    location: "Freelance",
+    description:
+      "Created responsive websites for individual clients and small businesses using JavaScript, TypeScript,React, Next.js, and Lit.js. Executed testing procedures, employing Jest and Mocha as the primary tools to strengthen the application's dependability and efficiency. Executed the deployment of web apps, leveraging platforms such as Netlify, Heroku, and Vercel, ensuring accessibility and optimal performance. Integrated third-party APIs to enhance application functionality and feature sets. Created responsive front-end user interfaces utilizing a range of tools including SCSS, TailwindCSS, Material UI, and Bootstrap to ensure an engaging and seamless user experience.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
+  },
+  {
+    title: "Software Engineer",
+    location: "XLR8 Development",
+    description:
+      "Developed full-stack applications for diverse clients, leveraging HTML5, CSS3, JavaScript, and TypeScript. Engineered client-facing application front ends using React, Angular, and Next.js. Implemented responsive user interfaces, utilizing frameworks such as SASS, TailwindCSS, and Material UI. Integrated and managed RESTful APIs, primarily focusing on Node.js and Python environments. Managed and manipulated data across various database systems, with PostgreSQL, MySQL, and MongoDB.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - current",
   },
 ] as const;
 
